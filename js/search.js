@@ -240,10 +240,34 @@ class UniversalSearchSystem {
                 url: 'it/titan-series.html',
                 tags: ['titan series', 'robust', 'server racks', 'heavy-duty', 'high-performance computing']
             },
-
-            // Power Directory Products (Index 29-43)
             {
                 index: 29,
+                id: 'compact-wall-mount-cabinets',
+                name: 'Compact Wall Mount Cabinets',
+                description: 'Space-efficient wall mount cabinets designed for compact IT installations and small office environments',
+                url: 'it/Compact Wall Mount Cabinets.html',
+                tags: ['compact', 'wall mount cabinets', 'space-efficient', 'small office', 'IT installations', 'compact design']
+            },
+            {
+                index: 30,
+                id: 'propro-wall-mount-cabinets',
+                name: 'ProPro Wall Mount Cabinets',
+                description: 'Professional premium wall mount cabinets with advanced features for high-end IT installations',
+                url: 'it/ProPro Wall Mount Cabinets.html',
+                tags: ['propro', 'professional', 'premium', 'wall mount cabinets', 'advanced features', 'high-end IT']
+            },
+            {
+                index: 31,
+                id: 'standard-wall-mount-cabinets',
+                name: 'Standard Wall Mount Cabinets',
+                description: 'Reliable and cost-effective wall mount cabinets for standard IT equipment installations',
+                url: 'it/standard Wall Mount Cabinets.html',
+                tags: ['standard', 'wall mount cabinets', 'reliable', 'cost-effective', 'IT equipment', 'standard installations']
+            },
+
+            // Power Directory Products (Index 32-46)
+            {
+                index: 32,
                 id: 'audio-rack',
                 name: 'Audio Rack',
                 description: 'Professional audio racks for sound systems, broadcasting, and AV installations with acoustic optimization',
@@ -251,7 +275,7 @@ class UniversalSearchSystem {
                 tags: ['audio rack', 'AV rack', 'sound system', 'broadcasting', 'professional audio', 'studio equipment']
             },
             {
-                index: 30,
+                index: 33,
                 id: 'automation-enclosure',
                 name: 'Automation Enclosure',
                 description: 'Industrial automation enclosures for control systems and electrical components protection',
@@ -259,7 +283,7 @@ class UniversalSearchSystem {
                 tags: ['automation enclosure', 'control systems', 'electrical protection', 'industrial', 'automation']
             },
             {
-                index: 31,
+                index: 34,
                 id: 'automation-panels',
                 name: 'Automation Panels',
                 description: 'Control panels for industrial automation systems with integrated components and wiring',
@@ -267,7 +291,7 @@ class UniversalSearchSystem {
                 tags: ['automation panels', 'control panels', 'industrial automation', 'integrated components', 'wiring']
             },
             {
-                index: 32,
+                index: 35,
                 id: 'customized-enclosure',
                 name: 'Customized Enclosure',
                 description: 'Custom-designed enclosures tailored to specific requirements and applications',
@@ -275,7 +299,7 @@ class UniversalSearchSystem {
                 tags: ['customized enclosure', 'custom design', 'tailored solutions', 'specific requirements', 'bespoke']
             },
             {
-                index: 33,
+                index: 36,
                 id: 'generator-sync-panels',
                 name: 'Generator Sync Panels',
                 description: 'Synchronization panels for generator systems and power management applications',
@@ -283,7 +307,7 @@ class UniversalSearchSystem {
                 tags: ['generator sync panels', 'synchronization', 'generator systems', 'power management', 'electrical']
             },
             {
-                index: 34,
+                index: 37,
                 id: 'ht-panel',
                 name: 'HT Panel',
                 description: 'High tension electrical panels for power distribution and control in industrial applications',
@@ -291,7 +315,7 @@ class UniversalSearchSystem {
                 tags: ['HT panel', 'high tension', 'electrical panels', 'power distribution', 'industrial', 'high voltage']
             },
             {
-                index: 35,
+                index: 38,
                 id: 'junction-box',
                 name: 'Junction Box',
                 description: 'Electrical junction boxes for safe wire connections and cable management',
@@ -299,7 +323,7 @@ class UniversalSearchSystem {
                 tags: ['junction box', 'electrical connections', 'wire management', 'cable connections', 'safety']
             },
             {
-                index: 36,
+                index: 39,
                 id: 'lt-panel',
                 name: 'LT Panel',
                 description: 'Low tension electrical panels for power distribution and motor control applications',
@@ -307,7 +331,7 @@ class UniversalSearchSystem {
                 tags: ['LT panel', 'low tension', 'electrical panels', 'power distribution', 'motor control', 'industrial']
             },
             {
-                index: 37,
+                index: 40,
                 id: 'monitoring-equipment',
                 name: 'Monitoring Equipment',
                 description: 'Power monitoring and measurement equipment for electrical systems and energy management',
@@ -315,7 +339,7 @@ class UniversalSearchSystem {
                 tags: ['monitoring equipment', 'power monitoring', 'measurement', 'electrical systems', 'energy management']
             },
             {
-                index: 38,
+                index: 41,
                 id: 'pole-mount-junction-box',
                 name: 'Pole Mount Junction Box',
                 description: 'Outdoor pole-mounted junction boxes for utility and infrastructure applications',
@@ -323,7 +347,7 @@ class UniversalSearchSystem {
                 tags: ['pole mount', 'junction box', 'outdoor', 'utility', 'infrastructure']
             },
             {
-                index: 39,
+                index: 42,
                 id: 'security-enclosure',
                 name: 'Security Enclosure',
                 description: 'Secure enclosures for protection of sensitive equipment and security systems',
@@ -331,7 +355,7 @@ class UniversalSearchSystem {
                 tags: ['security enclosure', 'protection', 'sensitive equipment', 'security systems', 'tamper-proof']
             },
             {
-                index: 40,
+                index: 43,
                 id: 'server-rack',
                 name: 'Server Rack',
                 description: 'Professional server racks for data center and IT infrastructure applications',
@@ -339,7 +363,7 @@ class UniversalSearchSystem {
                 tags: ['server rack', 'data center', 'IT infrastructure', 'professional', 'server equipment']
             },
             {
-                index: 41,
+                index: 44,
                 id: 'sheet-metal-fabrication',
                 name: 'Sheet Metal Fabrication',
                 description: 'Custom sheet metal fabrication services for enclosures and industrial components',
@@ -347,7 +371,7 @@ class UniversalSearchSystem {
                 tags: ['sheet metal', 'fabrication', 'custom', 'enclosures', 'industrial components', 'manufacturing']
             },
             {
-                index: 42,
+                index: 45,
                 id: 'ss-enclosure',
                 name: 'SS Enclosure',
                 description: 'Stainless steel enclosures for harsh environments and corrosive applications',
@@ -355,7 +379,7 @@ class UniversalSearchSystem {
                 tags: ['stainless steel', 'enclosure', 'harsh environments', 'corrosive', 'durable', 'weather resistant']
             },
             {
-                index: 43,
+                index: 46,
                 id: 'video-wall-rack',
                 name: 'Video Wall Rack',
                 description: 'Specialized racks for video wall displays and digital signage installations',
@@ -363,9 +387,9 @@ class UniversalSearchSystem {
                 tags: ['video wall', 'rack', 'displays', 'digital signage', 'AV equipment', 'mounting']
             },
 
-            // Telecom Directory Products (Index 44-55)
+            // Telecom Directory Products (Index 47-58)
             {
-                index: 44,
+                index: 47,
                 id: 'telecom-cable-management',
                 name: 'Cable Management Solutions',
                 description: 'Professional cable management solutions including trays, organizers, and routing systems for clean installations',
@@ -373,7 +397,7 @@ class UniversalSearchSystem {
                 tags: ['cable management', 'cable trays', 'organizers', 'routing systems', 'telecom infrastructure', 'fiber management']
             },
             {
-                index: 45,
+                index: 48,
                 id: 'telecom-cooling-systems',
                 name: 'Cooling Systems',
                 description: 'Telecom cooling systems for equipment temperature control and thermal management',
@@ -381,7 +405,7 @@ class UniversalSearchSystem {
                 tags: ['cooling systems', 'telecom', 'temperature control', 'thermal management', 'equipment cooling']
             },
             {
-                index: 46,
+                index: 49,
                 id: 'fiber-patch-panels',
                 name: 'Fiber Patch Panels',
                 description: 'High-density fiber optic patch panels for telecom network connectivity and management',
@@ -389,7 +413,7 @@ class UniversalSearchSystem {
                 tags: ['fiber patch panels', 'fiber optic', 'telecom', 'network connectivity', 'high-density', 'management']
             },
             {
-                index: 47,
+                index: 50,
                 id: 'telecom-monitoring-equipment',
                 name: 'Monitoring Equipment',
                 description: 'Network monitoring and diagnostic equipment for telecom infrastructure management',
@@ -397,7 +421,7 @@ class UniversalSearchSystem {
                 tags: ['monitoring equipment', 'network monitoring', 'diagnostic', 'telecom infrastructure', 'management']
             },
             {
-                index: 48,
+                index: 51,
                 id: 'network-cabinet',
                 name: 'Network Cabinet',
                 description: 'Professional network cabinets for telecom equipment housing and organization',
@@ -405,7 +429,7 @@ class UniversalSearchSystem {
                 tags: ['network cabinet', 'telecom equipment', 'housing', 'organization', 'professional']
             },
             {
-                index: 49,
+                index: 52,
                 id: 'pole-wall-mount-cabinet',
                 name: 'Pole Wall Mount Cabinet',
                 description: 'Outdoor pole and wall mount cabinets for telecom infrastructure installations',
@@ -413,7 +437,7 @@ class UniversalSearchSystem {
                 tags: ['pole mount', 'wall mount', 'cabinet', 'outdoor', 'telecom infrastructure', 'installations']
             },
             {
-                index: 50,
+                index: 53,
                 id: 'telecom-power-distribution',
                 name: 'Power Distribution',
                 description: 'Power distribution systems and PDUs for telecom equipment and infrastructure',
@@ -421,7 +445,7 @@ class UniversalSearchSystem {
                 tags: ['power distribution', 'PDUs', 'telecom equipment', 'infrastructure', 'power systems']
             },
             {
-                index: 51,
+                index: 54,
                 id: 'premium-outdoor-cabinet',
                 name: 'Premium Outdoor Cabinet',
                 description: 'Premium weather-resistant outdoor cabinets for critical telecom equipment protection',
@@ -429,7 +453,7 @@ class UniversalSearchSystem {
                 tags: ['premium', 'outdoor cabinet', 'weather-resistant', 'telecom equipment', 'protection', 'critical']
             },
             {
-                index: 52,
+                index: 55,
                 id: 'server-rack-cabinet',
                 name: 'Server Rack Cabinet',
                 description: 'Server rack cabinets designed for telecom data centers and network operations',
@@ -437,7 +461,7 @@ class UniversalSearchSystem {
                 tags: ['server rack', 'cabinet', 'telecom', 'data centers', 'network operations']
             },
             {
-                index: 53,
+                index: 56,
                 id: 'splice-enclosures',
                 name: 'Splice Enclosures',
                 description: 'Fiber optic splice enclosures for cable connections and network distribution points',
@@ -445,7 +469,7 @@ class UniversalSearchSystem {
                 tags: ['splice enclosures', 'fiber optic', 'cable connections', 'network distribution', 'telecom']
             },
             {
-                index: 54,
+                index: 57,
                 id: 'standard-outdoor-cabinet',
                 name: 'Standard Outdoor Cabinet',
                 description: 'Standard outdoor cabinets for telecom equipment in various environmental conditions',
@@ -453,7 +477,7 @@ class UniversalSearchSystem {
                 tags: ['standard', 'outdoor cabinet', 'telecom equipment', 'environmental', 'weather protection']
             },
             {
-                index: 55,
+                index: 58,
                 id: 'telecom-wall-mount-cabinet',
                 name: 'Wall Mount Cabinet',
                 description: 'Compact wall mount cabinets for telecom equipment in indoor installations',
@@ -461,7 +485,7 @@ class UniversalSearchSystem {
                 tags: ['wall mount', 'cabinet', 'telecom equipment', 'indoor', 'compact', 'installations']
             },
             {
-                index: 56,
+                index: 59,
                 id: 'lius',
                 name: 'LIUs (Line Interface Units)',
                 description: 'High-density Line Interface Units for fiber optic network connectivity with modular design and reliable performance',
@@ -469,7 +493,7 @@ class UniversalSearchSystem {
                 tags: ['LIUs', 'line interface units', 'high density', 'fiber optic', 'network connectivity', 'modular design', 'telecom infrastructure']
             },
             {
-                index: 57,
+                index: 60,
                 id: 'pig-tails',
                 name: 'Pig Tails',
                 description: 'High-quality fiber optic pigtail cables for reliable network connections and splicing applications with low insertion loss',
@@ -477,7 +501,7 @@ class UniversalSearchSystem {
                 tags: ['pig tails', 'pigtail cables', 'fiber optic', 'splicing', 'network connections', 'low insertion loss', 'pre-terminated']
             },
             {
-                index: 58,
+                index: 61,
                 id: 'fdms-42u-racks',
                 name: 'FDMS 42U Racks',
                 description: 'Professional Fiber Distribution Management Systems in 42U rack configuration for high-density fiber management in data centers',
@@ -485,7 +509,7 @@ class UniversalSearchSystem {
                 tags: ['FDMS', '42U racks', 'fiber distribution', 'management systems', 'high-density', 'data centers', 'telecom facilities']
             },
             {
-                index: 59,
+                index: 62,
                 id: 'patch-cords',
                 name: 'Patch Cords',
                 description: 'Premium fiber optic patch cords for reliable network connections with multiple connector types and various lengths',
@@ -493,9 +517,9 @@ class UniversalSearchSystem {
                 tags: ['patch cords', 'fiber optic', 'network connections', 'connector types', 'various lengths', 'reliable', 'premium quality']
             },
 
-            // Pages Directory Products (Index 60-83)
+            // Pages Directory Products (Index 63-86)
             {
-                index: 60,
+                index: 63,
                 id: 'datacenter-cooling-systems',
                 name: 'Datacenter Cooling Systems',
                 description: 'Comprehensive cooling solutions for datacenter environments including precision AC and liquid cooling',
@@ -503,7 +527,7 @@ class UniversalSearchSystem {
                 tags: ['datacenter cooling', 'precision AC', 'liquid cooling', 'thermal management', 'HVAC']
             },
             {
-                index: 61,
+                index: 64,
                 id: 'datacenter-network-racks',
                 name: 'Datacenter Network Racks',
                 description: 'Professional network racks designed specifically for datacenter environments with advanced cable management',
@@ -511,7 +535,7 @@ class UniversalSearchSystem {
                 tags: ['datacenter', 'network racks', 'cable management', 'server racks', '19-inch racks']
             },
             {
-                index: 62,
+                index: 65,
                 id: 'datacenter-server-racks',
                 name: 'Datacenter Server Racks',
                 description: 'High-density server racks for datacenter environments with superior cooling and power management',
@@ -519,7 +543,7 @@ class UniversalSearchSystem {
                 tags: ['datacenter', 'server racks', 'high-density', 'cooling', 'power management']
             },
             {
-                index: 63,
+                index: 66,
                 id: 'datacenter-smart-racks',
                 name: 'Datacenter Smart Racks',
                 description: 'Intelligent server racks with monitoring capabilities and automated management for modern datacenters',
@@ -527,7 +551,7 @@ class UniversalSearchSystem {
                 tags: ['datacenter', 'smart racks', 'intelligent', 'monitoring', 'automated management']
             },
             {
-                index: 64,
+                index: 67,
                 id: 'datacenter-technological-products',
                 name: 'Datacenter Technological Products',
                 description: 'Advanced technological solutions and accessories for modern datacenter infrastructure',
@@ -535,7 +559,7 @@ class UniversalSearchSystem {
                 tags: ['datacenter', 'technological products', 'advanced solutions', 'infrastructure', 'accessories']
             },
             {
-                index: 65,
+                index: 68,
                 id: 'industrial-automation-cable-management',
                 name: 'Industrial Automation Cable Management',
                 description: 'Comprehensive cable management solutions for industrial automation systems and control panels',
@@ -543,7 +567,7 @@ class UniversalSearchSystem {
                 tags: ['industrial automation', 'cable management', 'control panels', 'wire management', 'organization']
             },
             {
-                index: 66,
+                index: 69,
                 id: 'industrial-automation-cooling-ventilation',
                 name: 'Industrial Automation Cooling & Ventilation',
                 description: 'Cooling and ventilation solutions for industrial automation equipment and control systems',
@@ -551,7 +575,7 @@ class UniversalSearchSystem {
                 tags: ['industrial automation', 'cooling', 'ventilation', 'thermal management', 'control systems']
             },
             {
-                index: 67,
+                index: 70,
                 id: 'industrial-automation-electrical-components',
                 name: 'Industrial Automation Electrical Components',
                 description: 'Essential electrical components and accessories for industrial automation and control systems',
@@ -559,7 +583,7 @@ class UniversalSearchSystem {
                 tags: ['industrial automation', 'electrical components', 'control systems', 'automation accessories']
             },
             {
-                index: 68,
+                index: 71,
                 id: 'industrial-automation-mounting-support',
                 name: 'Industrial Automation Mounting & Support',
                 description: 'Mounting brackets, supports, and hardware for industrial automation equipment installation',
@@ -567,7 +591,7 @@ class UniversalSearchSystem {
                 tags: ['industrial automation', 'mounting', 'support', 'brackets', 'hardware', 'installation']
             },
             {
-                index: 69,
+                index: 72,
                 id: 'industrial-automation-pdus-power',
                 name: 'Industrial Automation PDUs & Power',
                 description: 'Power distribution units and power management solutions for industrial automation systems',
@@ -575,7 +599,7 @@ class UniversalSearchSystem {
                 tags: ['industrial automation', 'PDUs', 'power distribution', 'power management', 'electrical']
             },
             {
-                index: 70,
+                index: 73,
                 id: 'it-desktop-enclosures',
                 name: 'IT Desktop Enclosures',
                 description: 'Compact desktop enclosures for small IT equipment and office network devices',
@@ -583,7 +607,7 @@ class UniversalSearchSystem {
                 tags: ['IT', 'desktop enclosures', 'small equipment', 'office', 'network devices', 'compact']
             },
             {
-                index: 71,
+                index: 74,
                 id: 'it-floor-standing-racks',
                 name: 'IT Floor Standing Racks',
                 description: 'Professional floor standing racks for IT server and network equipment installations',
@@ -591,7 +615,7 @@ class UniversalSearchSystem {
                 tags: ['IT', 'floor standing racks', 'server equipment', 'network equipment', 'professional']
             },
             {
-                index: 72,
+                index: 75,
                 id: 'it-network-racks',
                 name: 'IT Network Racks',
                 description: 'Specialized network racks for IT environments with enhanced cable management and airflow',
@@ -599,7 +623,7 @@ class UniversalSearchSystem {
                 tags: ['IT', 'network racks', 'cable management', 'airflow', 'networking equipment']
             },
             {
-                index: 73,
+                index: 76,
                 id: 'it-open-wall-series',
                 name: 'IT Open Wall Series',
                 description: 'Open frame wall mounting solutions for IT equipment with easy access and maintenance',
@@ -607,7 +631,7 @@ class UniversalSearchSystem {
                 tags: ['IT', 'open wall series', 'wall mounting', 'open frame', 'easy access', 'maintenance']
             },
             {
-                index: 74,
+                index: 77,
                 id: 'it-security-surveillance',
                 name: 'IT Security Surveillance',
                 description: 'Specialized enclosures and racks for IT security and surveillance equipment',
@@ -615,7 +639,7 @@ class UniversalSearchSystem {
                 tags: ['IT', 'security', 'surveillance', 'enclosures', 'racks', 'security equipment']
             },
             {
-                index: 75,
+                index: 78,
                 id: 'it-wall-mount-cabinets',
                 name: 'IT Wall Mount Cabinets',
                 description: 'Space-saving wall mount cabinets for IT equipment in offices and small installations',
@@ -623,7 +647,7 @@ class UniversalSearchSystem {
                 tags: ['IT', 'wall mount cabinets', 'space-saving', 'office', 'small installations']
             },
             {
-                index: 76,
+                index: 79,
                 id: 'it-wall-mount-racks',
                 name: 'IT Wall Mount Racks',
                 description: 'Versatile wall mount racks for IT and network equipment in space-constrained environments',
@@ -631,7 +655,7 @@ class UniversalSearchSystem {
                 tags: ['IT', 'wall mount racks', 'network equipment', 'space-constrained', 'versatile']
             },
             {
-                index: 77,
+                index: 80,
                 id: 'power-av-racks',
                 name: 'Power AV Racks',
                 description: 'Specialized racks for audio-visual equipment and power distribution in entertainment systems',
@@ -639,7 +663,7 @@ class UniversalSearchSystem {
                 tags: ['power', 'AV racks', 'audio-visual', 'entertainment systems', 'power distribution']
             },
             {
-                index: 78,
+                index: 81,
                 id: 'power-electrical-panels',
                 name: 'Power Electrical Panels',
                 description: 'Industrial electrical panels and enclosures for power distribution and control systems',
@@ -647,7 +671,7 @@ class UniversalSearchSystem {
                 tags: ['power', 'electrical panels', 'industrial', 'power distribution', 'control systems']
             },
             {
-                index: 79,
+                index: 82,
                 id: 'power-industrial-enclosures',
                 name: 'Power Industrial Enclosures',
                 description: 'Robust industrial enclosures for power equipment and electrical components',
@@ -655,7 +679,7 @@ class UniversalSearchSystem {
                 tags: ['power', 'industrial enclosures', 'power equipment', 'electrical components', 'robust']
             },
             {
-                index: 80,
+                index: 83,
                 id: 'power-security-surveillance',
                 name: 'Power Security Surveillance',
                 description: 'Power solutions and enclosures for security and surveillance systems',
@@ -663,7 +687,7 @@ class UniversalSearchSystem {
                 tags: ['power', 'security', 'surveillance', 'power solutions', 'enclosures']
             },
             {
-                index: 81,
+                index: 84,
                 id: 'telecom-fiber-optic-accessories',
                 name: 'Telecom Fiber Optic Accessories',
                 description: 'Complete range of fiber optic accessories and components for telecom infrastructure',
@@ -671,7 +695,7 @@ class UniversalSearchSystem {
                 tags: ['telecom', 'fiber optic', 'accessories', 'components', 'infrastructure']
             },
             {
-                index: 82,
+                index: 85,
                 id: 'telecom-indoor-cabinets',
                 name: 'Telecom Indoor Cabinets',
                 description: 'Indoor telecom cabinets for equipment housing and network infrastructure',
@@ -679,7 +703,7 @@ class UniversalSearchSystem {
                 tags: ['telecom', 'indoor cabinets', 'equipment housing', 'network infrastructure']
             },
             {
-                index: 83,
+                index: 86,
                 id: 'telecom-other-products',
                 name: 'Telecom Other Products',
                 description: 'Additional telecom products and accessories for comprehensive network solutions',
@@ -687,7 +711,7 @@ class UniversalSearchSystem {
                 tags: ['telecom', 'other products', 'accessories', 'network solutions', 'comprehensive']
             },
             {
-                index: 84,
+                index: 87,
                 id: 'telecom-outdoor-cabinets',
                 name: 'Telecom Outdoor Cabinets',
                 description: 'Weather-resistant outdoor cabinets for telecom equipment and infrastructure',
