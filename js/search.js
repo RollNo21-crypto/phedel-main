@@ -21,6 +21,22 @@ class UniversalSearchSystem {
                 tags: ['air conditioning', 'precision AC', 'cabinet coolers', 'roof top units', 'split systems', 'industrial automation', 'temperature control']
             },
             {
+                index: 96,
+                id: 'hot-aisle-containment',
+                name: 'Hot Aisle Containment Systems',
+                description: 'Advanced airflow management solutions that isolate hot exhaust air for improved cooling efficiency',
+                url: 'datacenter/Hot Aisle Containment Systems.html',
+                tags: ['datacenter', 'hot aisle containment', 'airflow management', 'cooling efficiency', 'energy savings', 'temperature control']
+            },
+            {
+                index: 97,
+                id: 'cold-aisle-containment',
+                name: 'Cold Aisle Containment Systems',
+                description: 'Advanced cold aisle containment solutions that isolate cold supply air for optimal cooling efficiency',
+                url: 'datacenter/Cold Aisle Containment Systems.html',
+                tags: ['datacenter', 'cold aisle containment', 'airflow management', 'cooling efficiency', 'cost reduction', 'flexible installation']
+            },
+            {
                 index: 2,
                 id: 'cable-trays',
                 name: 'Cable Trays',
@@ -765,6 +781,22 @@ class UniversalSearchSystem {
                 description: 'Weather-resistant outdoor cabinets for telecom equipment and infrastructure',
                 url: 'pages/telecom-outdoor-cabinets.html',
                 tags: ['telecom', 'outdoor cabinets', 'weather-resistant', 'infrastructure', 'outdoor equipment']
+            },
+            {
+                index: 94,
+                id: 'ip-pdus',
+                name: 'IP PDUs - Intelligent Power Distribution Units',
+                description: 'Advanced intelligent power distribution units with remote monitoring and control capabilities',
+                url: 'datacenter/ip-pdus.html',
+                tags: ['datacenter', 'ip pdus', 'power distribution', 'intelligent', 'remote monitoring', 'power management']
+            },
+            {
+                index: 95,
+                id: 'km-switches',
+                name: 'KM Switches - KVM Management Solutions',
+                description: 'Comprehensive keyboard, video, and mouse management for multiple servers from a single console',
+                url: 'datacenter/km-switches.html',
+                tags: ['datacenter', 'km switches', 'kvm', 'server management', 'keyboard', 'video', 'mouse', 'console']
             }
         ];
         
