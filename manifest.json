@@ -1,0 +1,30 @@
+{
+  "name": "PHEDEL Enterprises - Infrastructure Solutions",
+  "short_name": "PHEDEL",
+  "description": "Leading manufacturer of datacenter racks, telecom cabinets, and network infrastructure solutions",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1f2937",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/images/phedel.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/phedel.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": [
+    "business",
+    "productivity"
+  ],
+  "lang": "en-IN",
+  "dir": "ltr"
+}
