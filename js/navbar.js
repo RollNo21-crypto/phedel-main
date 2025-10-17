@@ -67,9 +67,9 @@ class PhedelNavbar {
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="flex justify-between items-center h-16">
                     <div class="flex items-center">
-                        <div class="flex items-center space-x-2">
+                        <a href="${basePath}index.html" class="flex items-center space-x-2">
                             <img src="${basePath}phedel.png" alt="PHEDEL Logo" class="w-32 h-12 object-contain">
-                        </div>
+                        </a>
                     </div>
                     <div class="hidden md:flex lg:flex">
                         <div class="ml-10 flex items-baseline space-x-4 lg:space-x-8">
