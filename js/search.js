@@ -797,6 +797,137 @@ class UniversalSearchSystem {
                 description: 'Comprehensive keyboard, video, and mouse management for multiple servers from a single console',
                 url: 'datacenter/km-switches.html',
                 tags: ['datacenter', 'km switches', 'kvm', 'server management', 'keyboard', 'video', 'mouse', 'console']
+            },
+            // Industrial Automation Electrical Components
+            {
+                index: 96,
+                id: 'fans',
+                name: 'Industrial Cooling Fans',
+                description: 'High-performance cooling fans for industrial automation racks and control panels with optimal airflow',
+                url: 'auto/fans.html',
+                tags: ['industrial automation', 'cooling fans', 'airflow', 'thermal management', 'ventilation', 'rack cooling']
+            },
+            {
+                index: 97,
+                id: 'shelves',
+                name: 'Industrial Rack Shelves',
+                description: '1U cantilever trays and shelves for industrial automation equipment mounting and support',
+                url: 'auto/shelves.html',
+                tags: ['industrial automation', 'shelves', 'cantilever trays', 'equipment mounting', 'rack accessories']
+            },
+            {
+                index: 98,
+                id: 'blanking-panels',
+                name: 'Industrial Blanking Panels',
+                description: 'Airflow management blanking panels for industrial automation racks and control cabinets',
+                url: 'auto/blanking-panels.html',
+                tags: ['industrial automation', 'blanking panels', 'airflow management', 'rack accessories', 'thermal control']
+            },
+            {
+                index: 99,
+                id: 'bus-bars',
+                name: 'Industrial Bus Bars',
+                description: 'Power distribution bus bars for industrial automation systems and electrical panels',
+                url: 'auto/bus-bars.html',
+                tags: ['industrial automation', 'bus bars', 'power distribution', 'electrical components', 'power management']
+            },
+            {
+                index: 100,
+                id: 'brush-panels',
+                name: 'Industrial Brush Panels',
+                description: 'Cable management brush panels for industrial automation racks and control systems',
+                url: 'auto/brush-panels.html',
+                tags: ['industrial automation', 'brush panels', 'cable management', 'wire protection', 'rack accessories']
+            },
+            {
+                index: 101,
+                id: 'lacing-bars',
+                name: 'Industrial Lacing Bars',
+                description: 'Cable lacing bars for organized cable management in industrial automation installations',
+                url: 'auto/lacing-bars.html',
+                tags: ['industrial automation', 'lacing bars', 'cable management', 'wire organization', 'cable routing']
+            },
+            {
+                index: 102,
+                id: 'earthing-cable',
+                name: 'Industrial Earthing Cable',
+                description: 'Electrical safety earthing cables for proper grounding in industrial automation systems',
+                url: 'auto/earthing-cable.html',
+                tags: ['industrial automation', 'earthing cable', 'electrical safety', 'grounding', 'safety equipment']
+            },
+            // Industrial Automation Cable Management
+            {
+                index: 103,
+                id: 'horizontal-cable-management',
+                name: 'Horizontal Cable Management',
+                description: 'Efficient horizontal cable management solutions for industrial automation racks and panels',
+                url: 'auto/horizontal-cable-management.html',
+                tags: ['industrial automation', 'horizontal cable management', 'cable routing', 'wire management', 'rack accessories']
+            },
+            {
+                index: 104,
+                id: 'vertical-cable-management',
+                name: 'Vertical Cable Management',
+                description: 'Organized vertical cable management systems for industrial automation installations',
+                url: 'auto/vertical-cable-management.html',
+                tags: ['industrial automation', 'vertical cable management', 'cable organization', 'wire routing', 'space optimization']
+            },
+            {
+                index: 105,
+                id: 'cable-organizers',
+                name: 'Industrial Cable Organizers',
+                description: 'Professional cable organizers for neat and organized industrial automation installations',
+                url: 'auto/cable-organizers.html',
+                tags: ['industrial automation', 'cable organizers', 'wire management', 'cable organization', 'professional installation']
+            },
+            // Industrial Automation PDUs & Power
+            {
+                index: 106,
+                id: 'pdu-horizontal-indian-power',
+                name: 'PDU Single Phase Horizontal Indian Power',
+                description: 'Industrial horizontal rack-mounted PDU with Indian power outlets for automation systems',
+                url: 'auto/pdu-horizontal-indian-power.html',
+                tags: ['industrial automation', 'PDU', 'horizontal', 'indian power', 'power distribution', 'single phase']
+            },
+            {
+                index: 107,
+                id: 'pdu-horizontal-universal',
+                name: 'PDU Single Phase Horizontal Universal',
+                description: 'Versatile horizontal PDU with universal power outlets for industrial automation equipment',
+                url: 'auto/pdu-horizontal-universal.html',
+                tags: ['industrial automation', 'PDU', 'horizontal', 'universal power', 'power distribution', 'single phase']
+            },
+            {
+                index: 108,
+                id: 'pdu-vertical-indian-power',
+                name: 'PDU Single Phase Vertical Indian Power',
+                description: 'Space-efficient vertical PDU with Indian power outlets for industrial automation racks',
+                url: 'auto/pdu-vertical-indian-power.html',
+                tags: ['industrial automation', 'PDU', 'vertical', 'indian power', 'power distribution', 'single phase', 'space-efficient']
+            },
+            {
+                index: 109,
+                id: 'pdu-vertical-universal',
+                name: 'PDU Single Phase Vertical Universal',
+                description: 'Space-efficient vertical PDU with universal power outlets for automation systems',
+                url: 'auto/pdu-vertical-universal.html',
+                tags: ['industrial automation', 'PDU', 'vertical', 'universal power', 'power distribution', 'single phase', 'space-efficient']
+            },
+            {
+                index: 110,
+                id: 'pdu-three-phase-horizontal',
+                name: 'PDU Three Phase Horizontal',
+                description: 'High-capacity three-phase horizontal PDU for demanding industrial automation applications',
+                url: 'auto/pdu-three-phase-horizontal.html',
+                tags: ['industrial automation', 'PDU', 'three phase', 'horizontal', 'high-capacity', 'power distribution', 'industrial']
+            },
+            {
+                index: 111,
+                id: 'pdu-three-phase-vertical',
+                name: 'PDU Three Phase Vertical',
+                description: 'Space-efficient three-phase vertical PDU for high-capacity power distribution in automation',
+                url: 'auto/pdu-three-phase-vertical.html',
+                tags: ['industrial automation', 'PDU', 'three phase', 'vertical', 'high-capacity', 'power distribution', 'space-efficient']
             }
         ];
         

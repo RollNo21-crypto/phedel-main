@@ -62,178 +62,30 @@
     <script src="../js/navbar.js" defer></script>
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="bg-white shadow-sm">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between items-center h-16">
-                <div class="flex items-center">
-                    <div class="flex items-center space-x-2">
-                        <img src="../phedel.png" alt="PHEDEL Logo" class="w-32 h-12 object-contain">
-                    </div>
-                </div>
+    <div id="navbar-container"></div>
 
-                <div class="hidden md:flex lg:flex">
-                    <div class="ml-10 flex items-baseline space-x-4 lg:space-x-8">
-                        <a href="../index.html" class="text-gray-700 px-2 lg:px-3 py-2 text-sm font-medium transition-colors" onmouseover="this.style.color='#3A46A5'" onmouseout="this.style.color=''">Home</a>
-                        
-                        <!-- Industries dropdown -->
-                        <div class="relative group">
-                            <a href="../industries.html" class="text-gray-700 px-2 lg:px-3 py-2 text-sm font-medium flex items-center transition-colors" style="color: #3A46A5;" onmouseover="this.style.color='#3A46A5'" onmouseout="this.style.color='#3A46A5'">
-                                Industries
-                                <i class="fas fa-chevron-down ml-1 text-xs"></i>
-                            </a>
-                            <div class="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
-                                <div class="py-1">
-                                    <a href="../telecom-industry.html" class="block px-4 py-2 text-sm text-gray-700 transition-colors" onmouseover="this.style.backgroundColor='rgba(58, 70, 165, 0.1)'; this.style.color='#3A46A5'" onmouseout="this.style.backgroundColor=''; this.style.color=''">Telecom</a>
-                                    <a href="../datacenter-industry.html" class="block px-4 py-2 text-sm text-gray-700 transition-colors" onmouseover="this.style.backgroundColor='rgba(58, 70, 165, 0.1)'; this.style.color='#3A46A5'" onmouseout="this.style.backgroundColor=''; this.style.color=''">Data Center</a>
-                                    <a href="../industrial-auto-industry.html" class="block px-4 py-2 text-sm text-gray-700 transition-colors" style="background-color: rgba(58, 70, 165, 0.1); color: #3A46A5;" onmouseover="this.style.backgroundColor='rgba(58, 70, 165, 0.1)'; this.style.color='#3A46A5'" onmouseout="this.style.backgroundColor='rgba(58, 70, 165, 0.1)'; this.style.color='#3A46A5'">Industrial Auto</a>
-                                    <a href="../power-industry.html" class="block px-4 py-2 text-sm text-gray-700 transition-colors" onmouseover="this.style.backgroundColor='rgba(58, 70, 165, 0.1)'; this.style.color='#3A46A5'" onmouseout="this.style.backgroundColor=''; this.style.color=''">Power</a>
-                                    <a href="../it-industry.html" class="block px-4 py-2 text-sm text-gray-700 transition-colors" onmouseover="this.style.backgroundColor='rgba(58, 70, 165, 0.1)'; this.style.color='#3A46A5'" onmouseout="this.style.backgroundColor=''; this.style.color=''">IT</a>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <!-- Products dropdown -->
-                        <div class="relative group">
-                            <a href="../products.html" class="text-gray-700 px-2 lg:px-3 py-2 text-sm font-medium flex items-center transition-colors" onmouseover="this.style.color='#3A46A5'" onmouseout="this.style.color=''">
-                                Products
-                                <i class="fas fa-chevron-down ml-1 text-xs"></i>
-                            </a>
-                            <div class="absolute left-0 mt-2 w-56 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
-                                <div class="py-1">
-                                    <a href="../datacenter-industry.html" class="block px-4 py-2 text-sm text-gray-700 transition-colors" onmouseover="this.style.backgroundColor='rgba(58, 70, 165, 0.1)'; this.style.color='#3A46A5'" onmouseout="this.style.backgroundColor=''; this.style.color=''">Data Center</a>
-                                    <a href="../telecom-industry.html" class="block px-4 py-2 text-sm text-gray-700 transition-colors" onmouseover="this.style.backgroundColor='rgba(58, 70, 165, 0.1)'; this.style.color='#3A46A5'" onmouseout="this.style.backgroundColor=''; this.style.color=''">Telecom</a>
-                                    <a href="../it-industry.html" class="block px-4 py-2 text-sm text-gray-700 transition-colors" onmouseover="this.style.backgroundColor='rgba(58, 70, 165, 0.1)'; this.style.color='#3A46A5'" onmouseout="this.style.backgroundColor=''; this.style.color=''">IT and Network Provider</a>
-                                    <a href="../power-industry.html" class="block px-4 py-2 text-sm text-gray-700 transition-colors" onmouseover="this.style.backgroundColor='rgba(58, 70, 165, 0.1)'; this.style.color='#3A46A5'" onmouseout="this.style.backgroundColor=''; this.style.color=''">Electrical Panel</a>
-                                    <a href="../industrial-auto-industry.html" class="block px-4 py-2 text-sm text-gray-700 transition-colors" onmouseover="this.style.backgroundColor='rgba(58, 70, 165, 0.1)'; this.style.color='#3A46A5'" onmouseout="this.style.backgroundColor=''; this.style.color=''">Industrial Enclosure</a>
-                                    <a href="../products.html" class="block px-4 py-2 text-sm text-gray-700 transition-colors" onmouseover="this.style.backgroundColor='rgba(58, 70, 165, 0.1)'; this.style.color='#3A46A5'" onmouseout="this.style.backgroundColor=''; this.style.color=''">Security Surveillance</a>
-                                    <a href="../products.html" class="block px-4 py-2 text-sm text-gray-700 transition-colors" onmouseover="this.style.backgroundColor='rgba(58, 70, 165, 0.1)'; this.style.color='#3A46A5'" onmouseout="this.style.backgroundColor=''; this.style.color=''">AV Racks</a>
-                                    <a href="../products.html" class="block px-4 py-2 text-sm text-gray-700 transition-colors" onmouseover="this.style.backgroundColor='rgba(58, 70, 165, 0.1)'; this.style.color='#3A46A5'" onmouseout="this.style.backgroundColor=''; this.style.color=''">Accessories</a>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <!-- About Us dropdown -->
-                        <div class="relative group">
-                            <a href="../about.html" class="text-gray-700 px-2 lg:px-3 py-2 text-sm font-medium flex items-center transition-colors" onmouseover="this.style.color='#3A46A5'" onmouseout="this.style.color=''">
-                                About Us
-                            </a>
-                        </div>
-                        <div class="relative group">
-                            <a href="../contact.html" class="text-gray-700 px-2 lg:px-3 py-2 text-sm font-medium flex items-center transition-colors" onmouseover="this.style.color='#3A46A5'" onmouseout="this.style.color=''">
-                                Contact Us
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="flex items-center space-x-4">
-                    <button id="search-button" class="text-gray-700 hover:text-blue-600 p-2 rounded-lg hover:bg-gray-100 transition-colors" title="Search Products (Ctrl+K)">
-                        <i class="fas fa-search text-lg"></i>
-                    </button>
-                    <a href="../contact.html" class="hidden sm:block text-white px-4 py-2 rounded-lg text-sm font-medium" style="background-color: #3A46A5;" onmouseover="this.style.backgroundColor='#2d3a8c'" onmouseout="this.style.backgroundColor='#3A46A5'">Get Quote</a>
-                    <!-- Mobile menu button -->
-                    <button id="mobile-menu-button" class="md:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-[#3A46A5]" onmouseover="this.style.color='#3A46A5'" onmouseout="this.style.color=''">
-                        <span class="sr-only">Open main menu</span>
-                        <i id="hamburger-icon" class="fas fa-bars text-xl"></i>
-                        <i id="close-icon" class="fas fa-times text-xl hidden"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-
-        <!-- Mobile menu -->
-        <div id="mobile-menu" class="md:hidden hidden">
-            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t border-gray-200">
-                <button id="mobile-search-button" class="block w-full text-left px-3 py-2 text-gray-700 text-base font-medium hover:text-[#3A46A5] hover:bg-gray-50 transition-colors">
-                    <i class="fas fa-search mr-2"></i>Search Products
-                </button>
-                <a href="../index.html" class="text-gray-700 block px-3 py-2 text-base font-medium hover:text-[#3A46A5] hover:bg-gray-50 transition-colors">Home</a>
-                
-                <!-- Mobile Industries dropdown -->
-                <div class="mobile-dropdown">
-                    <button class="mobile-dropdown-toggle w-full text-left px-3 py-2 text-base font-medium text-[#3A46A5] bg-gray-50 flex items-center justify-between transition-colors">
-                        Industries
-                        <i class="fas fa-chevron-down text-sm transition-transform"></i>
-                    </button>
-                    <div class="mobile-dropdown-content hidden pl-4 space-y-1">
-                        <a href="../telecom-industry.html" class="block px-3 py-2 text-sm text-gray-600 hover:text-[#3A46A5] hover:bg-gray-50 transition-colors">Telecom</a>
-                        <a href="../datacenter-industry.html" class="block px-3 py-2 text-sm text-gray-600 hover:text-[#3A46A5] hover:bg-gray-50 transition-colors">Data Center</a>
-                        <a href="../industrial-auto-industry.html" class="block px-3 py-2 text-sm text-[#3A46A5] bg-gray-50 transition-colors">Industrial Auto</a>
-                        <a href="../power-industry.html" class="block px-3 py-2 text-sm text-gray-600 hover:text-[#3A46A5] hover:bg-gray-50 transition-colors">Power</a>
-                        <a href="../it-industry.html" class="block px-3 py-2 text-sm text-gray-600 hover:text-[#3A46A5] hover:bg-gray-50 transition-colors">IT</a>
-                    </div>
-                </div>
-                
-                <!-- Mobile Products dropdown -->
-                <div class="mobile-dropdown">
-                    <button class="mobile-dropdown-toggle w-full text-left px-3 py-2 text-base font-medium text-gray-700 hover:text-[#3A46A5] hover:bg-gray-50 flex items-center justify-between transition-colors">
-                        Products
-                        <i class="fas fa-chevron-down text-sm transition-transform"></i>
-                    </button>
-                    <div class="mobile-dropdown-content hidden pl-4 space-y-1">
-                        <a href="../pages/datacenter-server-racks.html" class="block px-3 py-2 text-sm text-gray-600 hover:text-[#3A46A5] hover:bg-gray-50 transition-colors">Data Center</a>
-                        <a href="../telecom-industry.html" class="block px-3 py-2 text-sm text-gray-600 hover:text-[#3A46A5] hover:bg-gray-50 transition-colors">Telecom</a>
-                        <a href="../pages/it-floor-standing-racks.html" class="block px-3 py-2 text-sm text-gray-600 hover:text-[#3A46A5] hover:bg-gray-50 transition-colors">IT and Network Provider</a>
-                        <a href="../electrical-panel-category.html" class="block px-3 py-2 text-sm text-gray-600 hover:text-[#3A46A5] hover:bg-gray-50 transition-colors">Electrical Panel</a>
-                        <a href="../industrial-enclosure-category.html" class="block px-3 py-2 text-sm text-gray-600 hover:text-[#3A46A5] hover:bg-gray-50 transition-colors">Industrial Enclosure</a>
-                        <a href="../security-surveillance-category.html" class="block px-3 py-2 text-sm text-gray-600 hover:text-[#3A46A5] hover:bg-gray-50 transition-colors">Security Surveillance</a>
-                        <a href="../av-racks-category.html" class="block px-3 py-2 text-sm text-gray-600 hover:text-[#3A46A5] hover:bg-gray-50 transition-colors">AV Racks</a>
-                        <a href="../accessories-category.html" class="block px-3 py-2 text-sm text-gray-600 hover:text-[#3A46A5] hover:bg-gray-50 transition-colors">Accessories</a>
-                    </div>
-                </div>
-                
-                <a href="../about.html" class="text-gray-700 block px-3 py-2 text-base font-medium hover:text-[#3A46A5] hover:bg-gray-50 transition-colors">About Us</a>
-                <a href="../contact.html" class="text-gray-700 block px-3 py-2 text-base font-medium hover:text-[#3A46A5] hover:bg-gray-50 transition-colors">Contact Us</a>
-                <a href="../contact.html" class="block px-3 py-2 text-white rounded-lg text-base font-medium" style="background-color: #3A46A5;">Get Quote</a>
-            </div>
-        </div>
-    </nav>
-    
     <!-- Hero Section -->
-    <section class="relative bg-gradient-to-br from-gray-50 via-white to-gray-50">
+    <section class="relative bg-gradient-to-br from-gray-50 via-white to-gray-50 py-20">
         <div class="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="%23f3f4f6" fill-opacity="0.3"%3E%3Ccircle cx="30" cy="30" r="2"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] opacity-40"></div>
-        
-        <!-- Breadcrumb -->
-        <nav class="bg-gradient-to-r from-gray-50 to-blue-50 py-4">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="bg-white rounded-full shadow-sm px-6 py-3 max-w-fit mx-auto">
-                    <div class="flex items-center space-x-2 text-sm">
-                        <a href="../index.html" class="text-gray-600 hover:text-[#3A46A5] font-medium transition-colors">Home</a>
-                        <i class="fas fa-chevron-right text-gray-400 text-xs"></i>
-                        <a href="../industries.html" class="text-gray-600 hover:text-[#3A46A5] font-medium transition-colors">Industries</a>
-                        <i class="fas fa-chevron-right text-gray-400 text-xs"></i>
-                        <a href="../industrial-auto-industry.html" class="text-gray-600 hover:text-[#3A46A5] font-medium transition-colors">Industrial Auto</a>
-                        <i class="fas fa-chevron-right text-gray-400 text-xs"></i>
-                        <span class="text-gray-900 font-bold">PDUs & Power</span>
-                    </div>
-                </div>
-            </div>
-        </nav>
-
-        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center">
-                <div class="mb-6">
-                    <span class="inline-block px-4 py-2 bg-[#3A46A5] bg-opacity-10 text-[#3A46A5] rounded-full text-sm font-medium mb-4">
-                        Industrial Power Solutions
-                    </span>
-                </div>
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-gray-900">
+                <nav class="flex justify-center items-center space-x-2 text-sm text-gray-600 mb-8">
+                    <a href="../index.html" class="transition-colors duration-200" style="color: inherit;" onmouseover="this.style.color='#3A46A5'" onmouseout="this.style.color='inherit'">Home</a>
+                    <i class="fas fa-chevron-right text-xs text-gray-400"></i>
+                    <a href="../industries.html" class="transition-colors duration-200" style="color: inherit;" onmouseover="this.style.color='#3A46A5'" onmouseout="this.style.color='inherit'">Industries</a>
+                    <i class="fas fa-chevron-right text-xs text-gray-400"></i>
+                    <a href="../industrial-auto-industry.html" class="transition-colors duration-200" style="color: inherit;" onmouseover="this.style.color='#3A46A5'" onmouseout="this.style.color='inherit'">Industrial Auto</a>
+                    <i class="fas fa-chevron-right text-xs text-gray-400"></i>
+                    <span class="font-medium" style="color: #3A46A5;">PDUs & Power</span>
+                </nav>
+                
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
                     PDUs & Power
                     <span class="block" style="color: #3A46A5;">Solutions</span>
                 </h1>
-                <p class="text-xl text-gray-600 mb-8 max-w-4xl mx-auto leading-relaxed">
-                    Industrial-grade power distribution units and power management solutions for automation systems.
-                    <span class="block mt-2">Reliable power delivery, intelligent monitoring, and robust construction for critical industrial applications.</span>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                    Industrial-grade power distribution units and power management solutions for automation systems with reliable power delivery and intelligent monitoring.
                 </p>
-                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                    <a href="#products" class="bg-[#3A46A5] text-white px-8 py-4 rounded-lg font-semibold hover:bg-[#2d3a8c] transition-all duration-300 transform hover:scale-105 shadow-lg">
-                        <i class="fas fa-eye mr-2"></i>View Products
-                    </a>
-                    <a href="../contact.html" class="border-2 border-[#3A46A5] text-[#3A46A5] px-8 py-4 rounded-lg font-semibold hover:bg-[#3A46A5] hover:text-white transition-all duration-300 transform hover:scale-105">
-                        <i class="fas fa-quote-right mr-2"></i>Get Quote
-                    </a>
-                </div>
             </div>
         </div>
     </section>
@@ -242,19 +94,19 @@
     <section id="products" class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Power Solution Categories</h2>
-                <p class="text-lg text-gray-600 max-w-2xl mx-auto">Explore our comprehensive range of industrial power distribution solutions</p>
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">PDU Single-Phase Solutions</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">Explore our comprehensive range of single-phase power distribution units for industrial automation</p>
             </div>
             
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
-                <!-- Rack Mount PDUs -->
+                <!-- Horizontal Indian Power PDU -->
                 <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-[#3A46A5] overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Rack Mount PDUs" class="w-full h-48 object-cover">
+                    <img src="/auto images/Pdu single phase indian.jpg" alt="Horizontal Indian Power PDU" class="w-full h-50 object-cover">
                     <div class="p-8">
-                        <h3 class="text-xl font-bold text-gray-900 mb-4">Rack Mount PDUs</h3>
-                        <p class="text-gray-600 mb-6">Industrial rack-mounted power distribution units with multiple outlets and circuit protection for automation equipment.</p>
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">PDU Single Phase (Horizontal) Indian Power PDU</h3>
+                        <p class="text-gray-600 mb-6">Industrial horizontal rack-mounted PDU with Indian power outlets, designed for reliable power distribution in automation environments.</p>
                         <div class="flex flex-row space-x-4">
-                            <a href="../assets/rack-mount-pdus-spec.pdf" target="_blank" class="inline-flex items-center justify-center px-6 py-3 bg-[#3A46A5] text-white rounded-lg hover:bg-[#2d3a8c] transition-colors duration-200">
+                            <a href="../assets/horizontal-indian-pdu-spec.pdf" target="_blank" class="inline-flex items-center justify-center px-6 py-3 bg-[#3A46A5] text-white rounded-lg hover:bg-[#2d3a8c] transition-colors duration-200">
                                 Download Specs
                             </a>
                             <a href="#" class="inline-flex items-center justify-center px-6 py-3 border-2 border-[#3A46A5] text-[#3A46A5] rounded-lg hover:bg-[#3A46A5] hover:text-white transition-colors duration-200">
@@ -264,14 +116,14 @@
                     </div>
                 </div>
 
-                <!-- Intelligent PDUs -->
+                <!-- Horizontal Universal PDU -->
                 <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-[#3A46A5] overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Intelligent PDUs" class="w-full h-48 object-cover">
+                    <img src="/auto images/PDU Single Phase (Horizontal) Universal PDU.jpg" alt="Horizontal Universal PDU" class="w-full h-50 object-cover">
                     <div class="p-8">
-                        <h3 class="text-xl font-bold text-gray-900 mb-4">Intelligent PDUs</h3>
-                        <p class="text-gray-600 mb-6">Smart power distribution with remote monitoring, load balancing, and real-time power consumption analytics.</p>
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">PDU Single Phase (Horizontal) Universal PDU</h3>
+                        <p class="text-gray-600 mb-6">Versatile horizontal PDU with universal power outlets, compatible with various plug types for flexible industrial automation setups.</p>
                         <div class="flex flex-row space-x-4">
-                            <a href="../assets/intelligent-pdus-spec.pdf" target="_blank" class="inline-flex items-center justify-center px-6 py-3 bg-[#3A46A5] text-white rounded-lg hover:bg-[#2d3a8c] transition-colors duration-200">
+                            <a href="../assets/horizontal-universal-pdu-spec.pdf" target="_blank" class="inline-flex items-center justify-center px-6 py-3 bg-[#3A46A5] text-white rounded-lg hover:bg-[#2d3a8c] transition-colors duration-200">
                                 Download Specs
                             </a>
                             <a href="#" class="inline-flex items-center justify-center px-6 py-3 border-2 border-[#3A46A5] text-[#3A46A5] rounded-lg hover:bg-[#3A46A5] hover:text-white transition-colors duration-200">
@@ -281,14 +133,65 @@
                     </div>
                 </div>
 
-                <!-- UPS Systems -->
+                <!-- Horizontal C13 and C14 PDU -->
                 <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-[#3A46A5] overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1581092584641-28445a2d3b3e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="UPS Systems" class="w-full h-48 object-cover">
+                    <img src="/auto images/PDU Single Phase (Horizontal) C13 and C14.jpg" alt="Horizontal C13 C14 PDU" class="w-full h-50 object-cover">
                     <div class="p-8">
-                        <h3 class="text-xl font-bold text-gray-900 mb-4">UPS Systems</h3>
-                        <p class="text-gray-600 mb-6">Uninterruptible power supply systems for critical automation equipment with battery backup and surge protection.</p>
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">PDU Single Phase (Horizontal) C13 and C14</h3>
+                        <p class="text-gray-600 mb-6">Horizontal PDU featuring IEC C13 and C14 connectors, ideal for server racks and industrial automation equipment.</p>
                         <div class="flex flex-row space-x-4">
-                            <a href="../assets/ups-systems-spec.pdf" target="_blank" class="inline-flex items-center justify-center px-6 py-3 bg-[#3A46A5] text-white rounded-lg hover:bg-[#2d3a8c] transition-colors duration-200">
+                            <a href="../assets/horizontal-c13-c14-pdu-spec.pdf" target="_blank" class="inline-flex items-center justify-center px-6 py-3 bg-[#3A46A5] text-white rounded-lg hover:bg-[#2d3a8c] transition-colors duration-200">
+                                Download Specs
+                            </a>
+                            <a href="#" class="inline-flex items-center justify-center px-6 py-3 border-2 border-[#3A46A5] text-[#3A46A5] rounded-lg hover:bg-[#3A46A5] hover:text-white transition-colors duration-200">
+                                View Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vertical Indian Power PDU -->
+                <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-[#3A46A5] overflow-hidden">
+                    <img src="/auto images/PDU Single Phase (Vertical) Indian Power PDU.jpg" alt="Vertical Indian Power PDU" class="w-full h-50 object-cover">
+                    <div class="p-8">
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">PDU Single Phase (Vertical) Indian Power PDU</h3>
+                        <p class="text-gray-600 mb-6">Space-saving vertical PDU with Indian power outlets, perfect for high-density rack installations in industrial settings.</p>
+                        <div class="flex flex-row space-x-4">
+                            <a href="../assets/vertical-indian-pdu-spec.pdf" target="_blank" class="inline-flex items-center justify-center px-6 py-3 bg-[#3A46A5] text-white rounded-lg hover:bg-[#2d3a8c] transition-colors duration-200">
+                                Download Specs
+                            </a>
+                            <a href="#" class="inline-flex items-center justify-center px-6 py-3 border-2 border-[#3A46A5] text-[#3A46A5] rounded-lg hover:bg-[#3A46A5] hover:text-white transition-colors duration-200">
+                                View Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vertical Universal PDU -->
+                <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-[#3A46A5] overflow-hidden">
+                    <img src="/auto images/PDU Single Phase (Vertical) Universal PDU.jpg" alt="Vertical Universal PDU" class="w-full h-50 object-cover">
+                    <div class="p-8">
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">PDU Single Phase (Vertical) Universal PDU</h3>
+                        <p class="text-gray-600 mb-6">Vertical PDU with universal power outlets, offering maximum flexibility for diverse industrial automation equipment.</p>
+                        <div class="flex flex-row space-x-4">
+                            <a href="../assets/vertical-universal-pdu-spec.pdf" target="_blank" class="inline-flex items-center justify-center px-6 py-3 bg-[#3A46A5] text-white rounded-lg hover:bg-[#2d3a8c] transition-colors duration-200">
+                                Download Specs
+                            </a>
+                            <a href="#" class="inline-flex items-center justify-center px-6 py-3 border-2 border-[#3A46A5] text-[#3A46A5] rounded-lg hover:bg-[#3A46A5] hover:text-white transition-colors duration-200">
+                                View Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vertical C13 and C14 PDU -->
+                <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-[#3A46A5] overflow-hidden">
+                    <img src="/auto images/PDU Single Phase (Vertical) C13 and C14.jpg" alt="Vertical C13 C14 PDU" class="w-full h-50 object-cover">
+                    <div class="p-8">
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">PDU Single Phase (Vertical) C13 and C14</h3>
+                        <p class="text-gray-600 mb-6">Vertical PDU with IEC C13 and C14 connectors, optimized for space-efficient power distribution in industrial racks.</p>
+                        <div class="flex flex-row space-x-4">
+                            <a href="../assets/vertical-c13-c14-pdu-spec.pdf" target="_blank" class="inline-flex items-center justify-center px-6 py-3 bg-[#3A46A5] text-white rounded-lg hover:bg-[#2d3a8c] transition-colors duration-200">
                                 Download Specs
                             </a>
                             <a href="#" class="inline-flex items-center justify-center px-6 py-3 border-2 border-[#3A46A5] text-[#3A46A5] rounded-lg hover:bg-[#3A46A5] hover:text-white transition-colors duration-200">
@@ -300,7 +203,6 @@
             </div>
         </div>
     </section>
-    
     <!-- CTA Section -->
     <section class="py-20 bg-gradient-to-br from-[#3A46A5] to-[#2d3a8c] relative overflow-hidden">
         <div class="absolute inset-0 bg-black opacity-10"></div>
