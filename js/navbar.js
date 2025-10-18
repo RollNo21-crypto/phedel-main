@@ -309,10 +309,22 @@ class PhedelNavbar {
     }
 
     setupSearchModal() {
-        // Initialize search functionality if UniversalSearchSystem is available
-        if (typeof UniversalSearchSystem !== 'undefined') {
-            this.searchSystem = new UniversalSearchSystem();
-        }
+        // Initialize search functionality when UniversalSearchSystem becomes available
+        const initializeSearchSystem = () => {
+            if (typeof UniversalSearchSystem !== 'undefined') {
+                try {
+                    this.searchSystem = new UniversalSearchSystem();
+                    console.log('UniversalSearchSystem initialized successfully');
+                } catch (error) {
+                    console.error('Error initializing UniversalSearchSystem:', error);
+                }
+            } else {
+                // If UniversalSearchSystem is not available yet, wait and try again
+                setTimeout(initializeSearchSystem, 100);
+            }
+        };
+        
+        initializeSearchSystem();
     }
 
     openSearchModal() {

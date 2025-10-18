@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detailed Logo Test</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="../js/search.js" defer></script>
+    <script src="../js/navbar.js" defer></script>
+</head>
+<body>
+    <div id="navbar-container"></div>
+    
+    <div class="container mx-auto p-8">
+        <h1 class="text-2xl font-bold mb-4">Detailed Logo Test</h1>
+        
+        <div class="mt-8">
+            <h2 class="text-lg font-semibold mb-2">Navbar HTML Content:</h2>
+            <div id="navbar-html" class="bg-gray-100 p-4 rounded text-xs overflow-auto max-h-96">
+                <p>Loading...</p>
+            </div>
+        </div>
+        
+        <div class="mt-4">
+            <h2 class="text-lg font-semibold mb-2">Logo Image Details:</h2>
+            <div id="logo-details" class="bg-blue-100 p-4 rounded">
+                <p>Loading...</p>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        setTimeout(() => {
+            const navbarContainer = document.getElementById('navbar-container');
+            const navbarHtmlDiv = document.getElementById('navbar-html');
+            const logoDetailsDiv = document.getElementById('logo-details');
+            const logoImg = document.querySelector('img[alt="PHEDEL Logo"]');
+            
+            navbarHtmlDiv.innerHTML = `<pre>${navbarContainer ? navbarContainer.innerHTML.replace(/</g, '&lt;').replace(/>/g, '&gt;') : 'Navbar container not found'}</pre>`;
+            
+            logoDetailsDiv.innerHTML = `
+                <p><strong>Logo image element found:</strong> ${logoImg ? 'Yes' : 'No'}</p>
+                ${logoImg ? `
+                    <p><strong>Logo src:</strong> ${logoImg.src}</p>
+                    <p><strong>Logo alt:</strong> ${logoImg.alt}</p>
+                    <p><strong>Logo class:</strong> ${logoImg.className}</p>
+                    <p><strong>Logo complete:</strong> ${logoImg.complete}</p>
+                    <p><strong>Logo naturalWidth:</strong> ${logoImg.naturalWidth}</p>
+                    <p><strong>Logo naturalHeight:</strong> ${logoImg.naturalHeight}</p>
+                ` : '<p>No logo image found</p>'}
+            `;
+        }, 4000);
+    </script>
+</body>
+</html>

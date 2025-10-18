@@ -115,7 +115,7 @@ class UniversalSearchSystem {
                 id: 'liquid-cooling-systems',
                 name: 'Liquid Cooling Systems',
                 description: 'Advanced liquid cooling systems for high-density computing environments offering superior heat dissipation and energy efficiency',
-                url: 'datacenter/km-switches.html',
+                url: 'datacenter/liquid-cooling-systems.html',
                 tags: ['liquid cooling', 'datacenter cooling', 'immersion cooling', 'direct liquid cooling', 'high-density computing']
             },
             {
