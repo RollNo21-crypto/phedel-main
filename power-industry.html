@@ -485,42 +485,8 @@
         </div>
     </section>
 <script>
-        // Mobile menu toggle
-        document.getElementById('mobile-menu-button').addEventListener('click', function() {
-            const menu = document.getElementById('mobile-menu');
-            const hamburger = document.getElementById('hamburger-icon');
-            const close = document.getElementById('close-icon');
-            
-            menu.classList.toggle('hidden');
-            hamburger.classList.toggle('hidden');
-            close.classList.toggle('hidden');
-        });
-
-        // Mobile dropdown functionality
-        document.addEventListener('DOMContentLoaded', function() {
-            const mobileDropdownToggles = document.querySelectorAll('.mobile-dropdown-toggle');
-            
-            mobileDropdownToggles.forEach(toggle => {
-                toggle.addEventListener('click', function() {
-                    const content = this.nextElementSibling;
-                    const chevron = this.querySelector('.fa-chevron-down');
-                    
-                    content.classList.toggle('hidden');
-                    chevron.classList.toggle('rotate-180');
-                });
-            });
-        });
-
-        // Search functionality
-        document.getElementById('search-button').addEventListener('click', function() {
-            // Add search functionality here
-            console.log('Search clicked');
-        });
-
-        document.getElementById('mobile-search-button').addEventListener('click', function() {
-            // Add mobile search functionality here
-            console.log('Mobile search clicked');
-        });
+        // Page-specific functionality only
+        // Mobile menu and search functionality is handled by navbar.js
     </script>
 
     <!-- Footer Container - Will be populated by footer.js -->

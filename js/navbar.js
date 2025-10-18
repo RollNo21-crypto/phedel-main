@@ -66,11 +66,14 @@ class PhedelNavbar {
         <nav class="bg-white shadow-sm">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="flex justify-between items-center h-16">
+                    <!-- Logo - Always visible -->
                     <div class="flex items-center cursor-pointer" onclick="window.location.href='${basePath}index.html'">
                         <div class="flex items-center space-x-2 cursor-pointer">
                             <img src="${basePath}phedel.png" alt="PHEDEL Logo" class="w-32 h-12 object-contain cursor-pointer">
                         </div>
                     </div>
+                    
+                    <!-- Desktop Navigation Links -->
                     <div class="hidden md:flex lg:flex">
                         <div class="ml-10 flex items-baseline space-x-4 lg:space-x-8">
                             <a href="${basePath}index.html" class="nav-link text-gray-700 px-2 lg:px-3 py-2 text-sm font-medium transition-colors" data-page="index" onmouseover="this.style.color='#3A46A5'" onmouseout="this.style.color=''">Home</a>
@@ -112,6 +115,8 @@ class PhedelNavbar {
                             </div>
                         </div>
                     </div>
+                    
+                    <!-- Right side controls - Always visible -->
                     <div class="flex items-center space-x-4">
                         <button id="search-button" class="text-gray-700 hover:text-blue-600 p-2 rounded-lg hover:bg-gray-100 transition-colors" title="Search Products (Ctrl+K)">
                             <i class="fas fa-search text-lg"></i>
@@ -125,12 +130,10 @@ class PhedelNavbar {
                         </button>
                     </div>
                 </div>
-                <!-- Mobile menu -->
+                
+                <!-- Mobile menu - Only navigation links -->
                 <div id="mobile-menu" class="md:hidden hidden">
                     <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t border-gray-200">
-                        <button id="mobile-search-button" class="block w-full text-left px-3 py-2 text-gray-700 text-base font-medium hover:text-[#3A46A5] hover:bg-gray-50 transition-colors">
-                            <i class="fas fa-search mr-2"></i>Search Products
-                        </button>
                         <a href="${basePath}index.html" class="text-gray-700 block px-3 py-2 text-base font-medium hover:text-[#3A46A5] hover:bg-gray-50 transition-colors">Home</a>
                         
                         <!-- Mobile Industries dropdown -->
@@ -140,31 +143,15 @@ class PhedelNavbar {
                                 <i class="fas fa-chevron-down text-sm transition-transform"></i>
                             </button>
                             <div class="mobile-dropdown-content hidden pl-4 space-y-1">
-                                <a href="${basePath}telecom-industry.html" class="block px-3 py-2 text-sm text-gray-600 hover:text-[#3A46A5] hover:bg-gray-50 transition-colors">Telecom</a>
-                                <a href="${basePath}datacenter-industry.html" class="block px-3 py-2 text-sm text-gray-600 hover:text-[#3A46A5] hover:bg-gray-50 transition-colors">Data Center</a>
-                                <a href="${basePath}industrial-auto-industry.html" class="block px-3 py-2 text-sm text-gray-600 hover:text-[#3A46A5] hover:bg-gray-50 transition-colors">Industrial Auto</a>
-                                <a href="${basePath}power-industry.html" class="block px-3 py-2 text-sm text-gray-600 hover:text-[#3A46A5] hover:bg-gray-50 transition-colors">Power</a>
                                 <a href="${basePath}it-industry.html" class="block px-3 py-2 text-sm text-gray-600 hover:text-[#3A46A5] hover:bg-gray-50 transition-colors">IT</a>
+                                <a href="${basePath}datacenter-industry.html" class="block px-3 py-2 text-sm text-gray-600 hover:text-[#3A46A5] hover:bg-gray-50 transition-colors">Data Center</a>
+                                <a href="${basePath}telecom-industry.html" class="block px-3 py-2 text-sm text-gray-600 hover:text-[#3A46A5] hover:bg-gray-50 transition-colors">Telecom</a>
+                                <a href="${basePath}industrial-auto-industry.html" class="block px-3 py-2 text-sm text-gray-600 hover:text-[#3A46A5] hover:bg-gray-50 transition-colors">Accessories</a>
+                                <a href="${basePath}power-industry.html" class="block px-3 py-2 text-sm text-gray-600 hover:text-[#3A46A5] hover:bg-gray-50 transition-colors">Power</a>
                             </div>
                         </div>
                         
-                        <!-- Mobile Products dropdown -->
-                        <div class="mobile-dropdown">
-                            <button class="mobile-dropdown-toggle w-full text-left px-3 py-2 text-base font-medium text-gray-700 hover:text-[#3A46A5] hover:bg-gray-50 flex items-center justify-between transition-colors">
-                                Products
-                                <i class="fas fa-chevron-down text-sm transition-transform"></i>
-                            </button>
-                            <div class="mobile-dropdown-content hidden pl-4 space-y-1">
-                                <a href="${basePath}data-centre-category.html" class="block px-3 py-2 text-sm text-gray-600 hover:text-[#3A46A5] hover:bg-gray-50 transition-colors">Data Center</a>
-                                <a href="${basePath}telecom-category.html" class="block px-3 py-2 text-sm text-gray-600 hover:text-[#3A46A5] hover:bg-gray-50 transition-colors">Telecom</a>
-                                <a href="${basePath}it-network-category.html" class="block px-3 py-2 text-sm text-gray-600 hover:text-[#3A46A5] hover:bg-gray-50 transition-colors">IT and Network Provider</a>
-                                <a href="${basePath}electrical-panel-category.html" class="block px-3 py-2 text-sm text-gray-600 hover:text-[#3A46A5] hover:bg-gray-50 transition-colors">Electrical Panel</a>
-                                <a href="${basePath}industrial-enclosure-category.html" class="block px-3 py-2 text-sm text-gray-600 hover:text-[#3A46A5] hover:bg-gray-50 transition-colors">Industrial Enclosure</a>
-                                <a href="${basePath}security-surveillance-category.html" class="block px-3 py-2 text-sm text-gray-600 hover:text-[#3A46A5] hover:bg-gray-50 transition-colors">Security Surveillance</a>
-                                <a href="${basePath}av-racks-category.html" class="block px-3 py-2 text-sm text-gray-600 hover:text-[#3A46A5] hover:bg-gray-50 transition-colors">AV Racks</a>
-                                <a href="${basePath}accessories-category.html" class="block px-3 py-2 text-sm text-gray-600 hover:text-[#3A46A5] hover:bg-gray-50 transition-colors">Accessories</a>
-                            </div>
-                        </div>
+                        <a href="${basePath}products.html" class="text-gray-700 block px-3 py-2 text-base font-medium hover:text-[#3A46A5] hover:bg-gray-50 transition-colors">Products</a>
                         
                         <a href="${basePath}about.html" class="text-gray-700 block px-3 py-2 text-base font-medium hover:text-[#3A46A5] hover:bg-gray-50 transition-colors">About Us</a>
                         <a href="${basePath}contact.html" class="text-gray-700 block px-3 py-2 text-base font-medium hover:text-[#3A46A5] hover:bg-gray-50 transition-colors">Contact Us</a>
@@ -247,17 +234,12 @@ class PhedelNavbar {
 
         // Search functionality
         const searchButton = document.getElementById('search-button');
-        const mobileSearchButton = document.getElementById('mobile-search-button');
         const searchModal = document.getElementById('search-modal');
         const closeSearchModal = document.getElementById('close-search-modal');
         const searchInput = document.getElementById('search-input');
 
         if (searchButton) {
             searchButton.addEventListener('click', () => this.openSearchModal());
-        }
-
-        if (mobileSearchButton) {
-            mobileSearchButton.addEventListener('click', () => this.openSearchModal());
         }
 
         if (closeSearchModal) {
