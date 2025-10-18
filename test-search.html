@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Search</title>
+    <script src="js/search.js" defer></script>
+    <script src="js/navbar.js" defer></script>
+</head>
+<body>
+    <div id="navbar-container"></div>
+    <script>
+        setTimeout(() => {
+            console.log('Navbar container:', document.getElementById('navbar-container'));
+            console.log('Search modal:', document.getElementById('search-modal'));
+            console.log('Search button:', document.getElementById('search-button'));
+            console.log('UniversalSearchSystem:', typeof UniversalSearchSystem);
+            console.log('PhedelNavbar:', typeof PhedelNavbar);
+        }, 3000);
+    </script>
+</body>
+</html>

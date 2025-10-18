@@ -69,7 +69,7 @@ class PhedelNavbar {
                     <!-- Logo - Always visible -->
                     <div class="flex items-center cursor-pointer" onclick="window.location.href='${basePath}index.html'">
                         <div class="flex items-center space-x-2 cursor-pointer">
-                            <img src="/images/phedel.png" alt="PHEDEL Logo" class="w-32 h-12 object-contain cursor-pointer">
+                            <img src="${basePath}phedel.png" alt="PHEDEL Logo" class="w-32 h-12 object-contain cursor-pointer">
                         </div>
                     </div>
                     
@@ -309,22 +309,10 @@ class PhedelNavbar {
     }
 
     setupSearchModal() {
-        // Initialize search functionality when UniversalSearchSystem becomes available
-        const initializeSearchSystem = () => {
-            if (typeof UniversalSearchSystem !== 'undefined') {
-                try {
-                    this.searchSystem = new UniversalSearchSystem();
-                    console.log('UniversalSearchSystem initialized successfully');
-                } catch (error) {
-                    console.error('Error initializing UniversalSearchSystem:', error);
-                }
-            } else {
-                // If UniversalSearchSystem is not available yet, wait and try again
-                setTimeout(initializeSearchSystem, 100);
-            }
-        };
-        
-        initializeSearchSystem();
+        // Initialize search functionality if UniversalSearchSystem is available
+        if (typeof UniversalSearchSystem !== 'undefined') {
+            this.searchSystem = new UniversalSearchSystem();
+        }
     }
 
     openSearchModal() {

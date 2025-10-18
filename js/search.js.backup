@@ -1,4 +1,4 @@
-﻿﻿// PHEDEL Basic Universal Search System
+// PHEDEL Basic Universal Search System
 // Simple, efficient search across all product directories
 
 class UniversalSearchSystem {
@@ -1422,3 +1422,4 @@ document.addEventListener('DOMContentLoaded', () => {
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = UniversalSearchSystem;
 }
+

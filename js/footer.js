@@ -41,7 +41,7 @@ class PhedelFooter {
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8 py-8"> 
                     <!-- Company Info --> 
                     <div class="flex flex-col items-center md:items-start"> 
-                        <img src="/images/phedel.png" alt="PHEDEL Logo" class="w-32 h-10 object-contain mb-4"> 
+                        <img src="${basePath}phedel.png" alt="PHEDEL Logo" class="w-32 h-10 object-contain mb-4"> 
                         <div class="text-sm text-gray-400 text-center md:text-left"> 
                             <p>GF, SY NO 70/2A &B,70/3 &70/4,, BANGALORE RURAL DISTRICT, BUDHIHAL</p> 
                             <p>VILLAGE,NELAMNGALA TALUK, Bengaluru, Bengaluru Rural, Karnataka, 562123</p> 
