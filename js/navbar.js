@@ -162,8 +162,8 @@ class PhedelNavbar {
         </nav>
 
         <!-- Search Modal -->
-        <div id="search-modal" class="fixed inset-0 bg-black bg-opacity-50 z-50 hidden">
-            <div class="fixed left-1/2 top-16 md:top-20 transform -translate-x-1/2 bg-white rounded-lg shadow-xl w-full max-w-2xl mx-4 md:mx-0">
+        <div id="search-modal" class="fixed inset-0 bg-black bg-opacity-50 z-50 hidden overflow-auto">
+            <div class="fixed left-1/2 top-16 md:top-20 transform -translate-x-1/2 bg-white rounded-lg shadow-xl w-full max-w-lg mx-4 md:mx-0">
                     <div class="p-6">
                         <div class="flex items-center justify-between mb-4">
                             <h3 class="text-lg font-semibold text-gray-900">Search Products</h3>

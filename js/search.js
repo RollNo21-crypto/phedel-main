@@ -934,6 +934,17 @@ class UniversalSearchSystem {
         this.init();
     }
 
+    getBasePath() {
+        const path = window.location.pathname;
+        const segments = path.split('/').filter(segment => segment);
+        
+        // If we're in a subdirectory (like telecom/), we need to go up one level
+        if (segments.length > 1 && segments[segments.length - 1].includes('.html')) {
+            return '../';
+        }
+        return './';
+    }
+
     init() {
         this.setupSearchInterface();
         this.setupEventListeners();
@@ -1206,7 +1217,7 @@ class UniversalSearchSystem {
             <div class="group bg-white border border-gray-200 rounded-xl p-5 mb-4 hover:shadow-lg hover:border-blue-300 transition-all duration-200 cursor-pointer transform hover:-translate-y-1" 
                  data-product-id="${result.id}" 
                  data-product-index="${result.index}"
-                 onclick="window.location.href='${result.url}'">
+                 onclick="window.location.href='${this.getBasePath()}${result.url}'">
                 <div class="flex items-start justify-between">
                     <div class="flex-1">
                         <div class="flex items-center space-x-3 mb-3">
