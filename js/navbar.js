@@ -69,7 +69,7 @@ class PhedelNavbar {
                     <!-- Logo - Always visible -->
                     <div class="flex items-center cursor-pointer" onclick="window.location.href='${basePath}index.html'">
                         <div class="flex items-center space-x-2 cursor-pointer">
-                            <img src="${basePath}phedel.png" alt="PHEDEL Logo" class="w-32 h-12 object-contain cursor-pointer">
+                            <img src="/images/phedel.png" alt="PHEDEL Logo" class="w-32 h-12 object-contain cursor-pointer">
                         </div>
                     </div>
                     
