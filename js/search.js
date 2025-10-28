@@ -1,4 +1,4 @@
-﻿﻿// PHEDEL Basic Universal Search System
+﻿// PHEDEL Basic Universal Search System
 // Simple, efficient search across all product directories
 
 class UniversalSearchSystem {
@@ -153,18 +153,18 @@ class UniversalSearchSystem {
             {
                 index: 16,
                 id: 'standard-racks',
-                name: 'Standard Racks',
+                name: 'Elite Racks',
                 description: 'Reliable and cost-effective datacenter racks with essential features for small to medium-scale deployments',
                 url: 'datacenter/standard-racks.html',
-                tags: ['standard racks', 'datacenter', 'cost-effective', 'reliable', 'essential features', 'server racks']
+                tags: ['elite racks', 'datacenter', 'cost-effective', 'reliable', 'essential features', 'server racks']
             },
             {
                 index: 17,
                 id: 'high-density-racks',
-                name: 'High-Density Racks',
+                name: 'Phenomena Rack',
                 description: 'Enterprise-grade server racks engineered for maximum density computing with optimized airflow and cable management',
                 url: 'datacenter/high-density-racks.html',
-                tags: ['high-density racks', 'datacenter', 'enterprise-grade', 'maximum density', 'optimized airflow', 'cable management']
+                tags: ['Phenomena Rack', 'datacenter', 'enterprise-grade', 'maximum density', 'optimized airflow', 'cable management']
             },
             {
                 index: 18,

@@ -153,10 +153,10 @@ class UniversalSearchSystem {
             {
                 index: 16,
                 id: 'standard-racks',
-                name: 'Standard Racks',
+                name: 'Elite Racks',
                 description: 'Reliable and cost-effective datacenter racks with essential features for small to medium-scale deployments',
                 url: 'datacenter/standard-racks.html',
-                tags: ['standard racks', 'datacenter', 'cost-effective', 'reliable', 'essential features', 'server racks']
+                tags: ['elite racks', 'datacenter', 'cost-effective', 'reliable', 'essential features', 'server racks']
             },
             {
                 index: 17,
