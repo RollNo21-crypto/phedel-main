@@ -154,25 +154,25 @@ class UniversalSearchSystem {
                 index: 16,
                 id: 'standard-racks',
                 name: 'Elite Racks',
-                description: 'Reliable and cost-effective datacenter racks with essential features for small to medium-scale deployments',
+                description: 'Premium datacenter racks with advanced features and superior compatibility for demanding infrastructure',
                 url: 'datacenter/standard-racks.html',
-                tags: ['elite racks', 'datacenter', 'cost-effective', 'reliable', 'essential features', 'server racks']
+                tags: ['elite racks', 'datacenter', 'premium', 'advanced features', 'superior compatibility', 'server racks']
             },
             {
                 index: 17,
                 id: 'high-density-racks',
-                name: 'Phenomena Rack',
-                description: 'Enterprise-grade server racks engineered for maximum density computing with optimized airflow and cable management',
+                name: 'Phenomena Racks',
+                description: 'Revolutionary datacenter racks delivering cutting-edge technology and breakthrough performance for next-generation infrastructure',
                 url: 'datacenter/high-density-racks.html',
-                tags: ['Phenomena Rack', 'datacenter', 'enterprise-grade', 'maximum density', 'optimized airflow', 'cable management']
+                tags: ['phenomena racks', 'datacenter', 'revolutionary', 'cutting-edge technology', 'breakthrough performance', 'next-generation']
             },
             {
                 index: 18,
                 id: 'blade-server-racks',
-                name: 'Blade Server Racks',
-                description: 'Specialized racks designed for blade server systems with advanced power distribution and cooling capabilities',
+                name: 'Classic Racks',
+                description: 'Proven and reliable datacenter racks with dependable construction and industry-standard compatibility',
                 url: 'datacenter/blade-server-racks.html',
-                tags: ['blade server racks', 'datacenter', 'blade systems', 'power distribution', 'cooling', 'specialized racks']
+                tags: ['classic racks', 'datacenter', 'proven', 'reliable', 'dependable construction', 'industry-standard']
             },
             {
                 index: 19,
