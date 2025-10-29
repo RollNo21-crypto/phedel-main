@@ -1,37 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
+        http://www.google.com/schemas/sitemap-image/1.1
+        http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd">
     
     <!-- Main Pages -->
     <url>
         <loc>https://phedel.com/</loc>
-        <lastmod>2024-01-15</lastmod>
-        <changefreq>weekly</changefreq>
+        <lastmod>2024-12-30</lastmod>
+        <changefreq>daily</changefreq>
         <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://phedel.com/logo.png</image:loc>
+            <image:title>PHEDEL - Leading Infrastructure Provider</image:title>
+            <image:caption>PHEDEL datacenter and telecom rack solutions</image:caption>
+        </image:image>
+    </url>
+    
+    <!-- Product Category Pages -->
+    <url>
+        <loc>https://phedel.com/pages/datacenter-server-racks.html</loc>
+        <lastmod>2024-12-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://phedel.com/images/datacenter-racks.jpg</image:loc>
+            <image:title>Datacenter Server Racks</image:title>
+            <image:caption>High-density server racks and blade server solutions</image:caption>
+        </image:image>
     </url>
     <url>
+        <loc>https://phedel.com/pages/it-floor-standing-racks.html</loc>
+        <lastmod>2024-12-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://phedel.com/images/it-floor-racks.jpg</image:loc>
+            <image:title>IT Floor Standing Racks</image:title>
+            <image:caption>19-inch floor standing racks and heavy-duty solutions</image:caption>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://phedel.com/pages/datacenter-network-racks.html</loc>
+        <lastmod>2024-12-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://phedel.com/images/network-racks.jpg</image:loc>
+            <image:title>Datacenter Network Racks</image:title>
+            <image:caption>Standard network racks and telecommunications cabinets</image:caption>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://phedel.com/pages/datacenter-technological-products.html</loc>
+        <lastmod>2024-12-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://phedel.com/images/tech-products.jpg</image:loc>
+            <image:title>Datacenter Technological Products</image:title>
+            <image:caption>Advanced datacenter technology solutions and KM switches</image:caption>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://phedel.com/pages/power-industrial-enclosures.html</loc>
+        <lastmod>2024-12-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://phedel.com/images/industrial-enclosures.jpg</image:loc>
+            <image:title>Power Industrial Enclosures</image:title>
+            <image:caption>Automation enclosures and customized industrial solutions</image:caption>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://phedel.com/pages/industrial-automation-electrical-components.html</loc>
+        <lastmod>2024-12-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://phedel.com/images/electrical-components.jpg</image:loc>
+            <image:title>Industrial Automation Electrical Components</image:title>
+            <image:caption>Fans, shelves, blanking panels, and electrical components</image:caption>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://phedel.com/pages/it-security-surveillance.html</loc>
+        <lastmod>2024-12-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://phedel.com/images/security-surveillance.jpg</image:loc>
+            <image:title>IT Security Surveillance</image:title>
+            <image:caption>Surveillance racks and access control systems</image:caption>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://phedel.com/pages/power-security-surveillance.html</loc>
+        <lastmod>2024-12-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://phedel.com/images/power-security.jpg</image:loc>
+            <image:title>Power Security Surveillance</image:title>
+            <image:caption>Security enclosures and pole mount junction boxes</image:caption>
+        </image:image>
+    </url>
+    
+    <!-- Legacy Pages (if they exist) -->
+    <url>
         <loc>https://phedel.com/about.html</loc>
-        <lastmod>2024-01-15</lastmod>
+        <lastmod>2024-12-30</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://phedel.com/products.html</loc>
-        <lastmod>2024-01-15</lastmod>
+        <lastmod>2024-12-30</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://phedel.com/contact.html</loc>
-        <lastmod>2024-01-15</lastmod>
+        <lastmod>2024-12-30</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://phedel.com/industries.html</loc>
-        <lastmod>2024-01-15</lastmod>
+        <lastmod>2024-12-30</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -39,31 +139,31 @@
     <!-- Industry Pages -->
     <url>
         <loc>https://phedel.com/datacenter-industry.html</loc>
-        <lastmod>2024-01-15</lastmod>
+        <lastmod>2024-12-30</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://phedel.com/telecom-industry.html</loc>
-        <lastmod>2024-01-15</lastmod>
+        <lastmod>2024-12-30</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://phedel.com/power-industry.html</loc>
-        <lastmod>2024-01-15</lastmod>
+        <lastmod>2024-12-30</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://phedel.com/it-industry.html</loc>
-        <lastmod>2024-01-15</lastmod>
+        <lastmod>2024-12-30</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://phedel.com/industrial-auto-industry.html</loc>
-        <lastmod>2024-01-15</lastmod>
+        <lastmod>2024-12-30</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>

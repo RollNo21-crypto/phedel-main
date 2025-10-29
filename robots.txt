@@ -1,37 +1,72 @@
-# PHEDEL Robots.txt - Optimized for SEO
+# PHEDEL Robots.txt - Optimized for SEO and Rich Snippets
 User-agent: *
 Allow: /
 
-# Sitemap location
+# Primary sitemap location
 Sitemap: https://phedel.com/sitemap.xml
 
-# Crawl delay for better server performance
+# Additional sitemaps for better indexing
+Sitemap: https://phedel.com/sitemap-products.xml
+Sitemap: https://phedel.com/sitemap-pages.xml
+
+# Optimized crawl delay for better server performance
 Crawl-delay: 1
 
-# Allow all major search engines
+# Allow all major search engines with specific permissions
 User-agent: Googlebot
 Allow: /
+Crawl-delay: 1
 
 User-agent: Bingbot
 Allow: /
+Crawl-delay: 1
 
 User-agent: Slurp
 Allow: /
+Crawl-delay: 1
 
 User-agent: DuckDuckBot
 Allow: /
+Crawl-delay: 1
 
-# Block unnecessary crawling of assets
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+# Block unnecessary crawling of assets and temporary files
 Disallow: /assets/temp/
+Disallow: /temp/
 Disallow: /*.log$
 Disallow: /*.tmp$
+Disallow: /private/
+Disallow: /admin/
+Disallow: /test/
 
-# Allow important directories
+# Explicitly allow important directories for better indexing
+Allow: /pages/
+Allow: /images/
+Allow: /js/
+Allow: /css/
+Allow: /assets/
 Allow: /datacenter/
 Allow: /telecom/
 Allow: /power/
 Allow: /it/
 Allow: /auto/
-Allow: /pages/
-Allow: /images/
-Allow: /js/
+Allow: /industrial/
+Allow: /security/
+Allow: /network/
+
+# Allow specific file types that are important for SEO
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.webp$
+Allow: /*.pdf$
+Allow: /*.html$
