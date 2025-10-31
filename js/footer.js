@@ -78,9 +78,18 @@ class PhedelFooter {
                     </div> 
                 </div> 
                 
-                <div class="border-t border-gray-800 mt-2 pt-6 text-center"> 
-                    <p class="text-xs text-gray-400">&copy; 2024 PHEDEL Enterprises Inc. All rights reserved.</p> 
-                </div> 
+                <div class="border-t border-gray-800 mt-8 pt-8 text-center space-y-2"> 
+                    <p class="text-sm text-gray-300 tracking-wide">&copy; 2024 PHEDEL Enterprises Inc. All rights reserved.</p> 
+                    <p class="text-xs text-gray-500">
+                        <span class="opacity-80">Crafted with ❤️ by</span>
+                        <a href="https://krishna77606.github.io/portfolio/" 
+                           target="_blank" 
+                           rel="noopener noreferrer" 
+                           class="ml-1 text-gray-400 hover:text-white font-medium underline decoration-dotted transition-all duration-200 hover:decoration-solid">
+                            Krishnamurthy M G
+                        </a>
+                    </p>
+                </div>
             </div> 
         </footer>`;
 
